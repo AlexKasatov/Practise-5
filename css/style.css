@@ -1,0 +1,99 @@
+@import url(reset.css);
+
+.header-container {
+  height: 60px;
+  width: 1920px;
+  background-color: #fe1a19;
+  color: #ffffff;
+}
+
+.header-heading {
+  padding: 20px 600px 20px 20px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.content-container {
+  box-sizing: content-box;
+  width: 400px;
+  height: 700px;
+  border: solid 5px #e5e000;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 52px 50px;
+}
+
+.content-container.first {
+  margin-left: 70px;
+}
+
+.content-heading-1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  align-items: center;
+  padding: 33px 160px 41px 33px;
+  color: #000000;
+}
+
+.content-heading-2 {
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.content-text {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 33px;
+}
+
+.footer-container {
+  width: 1920px;
+  height: 60px;
+  top: 964px;
+  background-color: #fe1a19;
+  box-sizing: content-box;
+}
+
+.footer-heading-1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+}
+
+.footer-heading-2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding-left: 1240px;
+}
