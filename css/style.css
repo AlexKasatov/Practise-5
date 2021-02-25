@@ -39,7 +39,8 @@ body {
 .content-container {
   box-sizing: content-box;
   width: 400px;
-  height: 820px;
+  /* height: 820px; */
+  /* если убрать высоту, текст не вылазит из блока */
   border: solid 5px #e5e000;
   border-radius: 30px;
   display: inline-block;
