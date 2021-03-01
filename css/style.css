@@ -5,17 +5,18 @@ body {
   height: 100%;
 }
 
-body {
+/* флекс-бокс, чтобы центровало наш блок с контентом */
+/* body {
   display: flex;
   flex-direction: column;
-}
+} */
 
-.content {
+/* .content {
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
   text-align: left;
-}
+} */
 
 .header-container {
   height: 60px;
@@ -36,6 +37,13 @@ body {
   white-space: nowrap;
 }
 
+.content {
+  text-align: center;
+  margin: 30px auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .content-container {
   box-sizing: content-box;
   width: 400px;
@@ -45,8 +53,8 @@ body {
   border-radius: 30px;
   display: inline-block;
   margin-right: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
 }
 
 .content-heading-1 {
@@ -68,12 +76,16 @@ body {
   font-size: 20px;
   line-height: 23px;
   align-items: center;
-  margin-left: 33px;
+  /* margin-left: 33px;
   margin-right: 33px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
 }
 
 .recipe-list {
+  margin-bottom: 30px;
+}
+
+.recipe-text {
   font-family: Times New Roman;
   font-style: normal;
   font-weight: normal;
